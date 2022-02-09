@@ -5,9 +5,10 @@ import items from './data';
 const allCategories = ['all', ...new Set(items.map((item) => item.category))];
 
 function App() {
-  const [menuItems, setMenuItems] = useState(items);
+  const [menuItems, setMenuItems] = useState(items); //What we are getting from our datat we pass through
   const [categories, setCategories] = useState(allCategories);
 
+  //function looking for the string 
   const filterItems = (category) => {
     if (category === 'all') {
       setMenuItems(items);
@@ -17,6 +18,7 @@ function App() {
     setMenuItems(newItems);
   };
 
+  
   return (
     <main>
       <section className="menu section">
@@ -24,7 +26,7 @@ function App() {
           <h2>our menu</h2>
           <div className="underline"></div>
         </div>
-        <Categories categories={categories} filterItems={filterItems} />
+        <Categories categories={categories} filterItems={filterItems} /> 
         <Menu items={menuItems} />
       </section>
     </main>
