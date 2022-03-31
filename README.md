@@ -6,8 +6,7 @@
 ### Competencies
 
 #JF 2.4
-Demonstrates commitment to continued professional development.; Led an interactive session on " How to Communicate Efeectively in the workplace."
-
+Demonstrates commitment to continued professional development.; Actively working on an accessibility project to enhance technical skills.
 #JF 3.7
 Acts with integrity with respect to ethical, legal and regulatory ensuring the protection of personal data, safety and security. ; Maintains proper security of Git Hub repositories, adequately maintains proper VPN status. Constantly configures Mckinsey's security by adhering to software requirements. 
 
